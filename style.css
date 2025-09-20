@@ -1,0 +1,135 @@
+* {
+margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e0f7fa;
+
+}
+
+#navbar{
+    height: 4rem;
+    width: 100%;
+    background-color: #0A2239;
+    color: white;
+    font-weight: 700;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#block_items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 11rem;
+    width: 35rem;
+    margin-top: 2rem;
+}
+
+#rock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem ;
+    width: 8rem;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url("rock.jpg");
+    background-size: cover;
+}
+
+#rock:hover{
+    cursor: pointer;
+}
+
+#paper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem ;
+    width: 8rem;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url("paper.jpg");
+    background-size: cover;
+}
+
+#paper:hover{
+    cursor: pointer;
+}
+
+#scissor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem ;
+    width: 8rem;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url("scissor.jpg");
+    background-size: cover;
+}
+
+#scissor:hover{
+    cursor: pointer;
+}
+
+
+#block_score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#score{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    height: 6rem;
+    width: 15rem;
+    margin-top: 2rem;
+}
+
+#block_result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#result {
+    height: auto; /* Let height adjust automatically */
+    min-height: 3rem; /* Keep minimum height */
+    max-width: 90%; /* Prevent overflow on small screens */
+    background-color: aqua;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    padding: 0.8rem 1rem; /* Add padding so text isn’t stuck to edges */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem; /* Adjust size to fit text */
+    font-weight: 600;
+    text-align: center; /* Center multi-line text */
+    word-wrap: break-word; /* Break long words to new line */
+    line-height: 1.4; /* Improve readability */
+}
+
+
+.num_score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
