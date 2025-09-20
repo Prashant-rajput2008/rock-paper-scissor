@@ -33,13 +33,13 @@ choices.forEach((choice) => {
         console.log("You:", user, "Comp:", comp);
 
         if (user === comp) {
-            result.innerText = "It's a Draw ! Taniya JI"
+            result.innerText = `It's a Draw !`
             result.style.backgroundColor = "#0A2239"
             result.style.color = "white"
         }
         
         else if( user === "rock" && comp === "paper"){
-            result.innerText = "You Lose ! But Try Again Taniya JI"
+            result.innerText = `You Lose ! But Try Again Your ${user} Beaten by {comp}`
             result.style.backgroundColor = "#e74c3c"
             result.style.color = "white" 
             result.style.fontSize = "1.4rem"
@@ -48,7 +48,7 @@ choices.forEach((choice) => {
         }
         
         else if( user === "rock" && comp === "scissors"){
-            result.innerText = "You Win ! Taniya JI Great "
+            result.innerText = `You Win ! Your ${user} Beats ${comp}`
             result.style.backgroundColor = "#2ecc71"
             result.style.color = "white" 
             result.style.fontSize = "1.7rem"
@@ -57,7 +57,7 @@ choices.forEach((choice) => {
         }
         
         else if( user === "paper" && comp === "scissors"){
-            result.innerText = "You Lose ! But Try Again Taniya JI"
+            result.innerText = `You Lose ! But Try Again Your ${user} Beaten by {comp}`
             result.style.backgroundColor = "#e74c3c"
             result.style.color = "white" 
             result.style.fontSize = "1.4rem"
@@ -66,7 +66,7 @@ choices.forEach((choice) => {
         }
         
         else if( user === "paper" && comp === "rock"){
-            result.innerText = "You Win ! Taniya JI Great "
+            result.innerText = `You Win ! Your ${user} Beats ${comp}`
             result.style.backgroundColor = "#2ecc71"
             result.style.color = "white" 
             result.style.fontSize = "1.7rem"
@@ -75,7 +75,7 @@ choices.forEach((choice) => {
         }
         
         else if( user === "scissors" && comp === "rock"){
-            result.innerText = "You Lose ! But Try Again Taniya JI"
+            result.innerText = `You Lose ! But Try Again Your ${user} Beaten by {comp}`
             result.style.backgroundColor = "#e74c3c"
             result.style.color = "white" 
             result.style.fontSize = "1.4rem"
@@ -84,7 +84,7 @@ choices.forEach((choice) => {
         }
         
         else if( user === "scissors" && comp === "paper"){
-            result.innerText = "You Win ! Taniya JI Great "
+            result.innerText = `You Win ! Your ${user} Beats ${comp}`
             result.style.backgroundColor = "#2ecc71"
             result.style.color = "white" 
             result.style.fontSize = "1.7rem"
