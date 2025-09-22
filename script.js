@@ -57,7 +57,7 @@ choices.forEach((choice) => {
         }
         
         else if( user === "paper" && comp === "scissors"){
-            result.innerText = `You Lose ! But Try Again Your ${user} Beaten by {comp}`
+            result.innerText = `You Lose ! But Try Again Your ${user} Beaten by ${comp}`
             result.style.backgroundColor = "#e74c3c"
             result.style.color = "white" 
             result.style.fontSize = "1.4rem"
@@ -75,7 +75,7 @@ choices.forEach((choice) => {
         }
         
         else if( user === "scissors" && comp === "rock"){
-            result.innerText = `You Lose ! But Try Again Your ${user} Beaten by {comp}`
+            result.innerText = `You Lose ! But Try Again Your ${user} Beaten by ${comp}`
             result.style.backgroundColor = "#e74c3c"
             result.style.color = "white" 
             result.style.fontSize = "1.4rem"
